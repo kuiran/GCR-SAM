@@ -73,7 +73,7 @@ model = dict(
 
 # load_from = 'data/pretrained/sam/sam_vit_h_4b8939.pth'
 
-load_from = '/home/ubuntu/hxm/ovd/mmdetection/data/pretrained/sam/sam_vit_h_4b8939.pth'
+load_from = 'pretrained/sam/sam_vit_h_4b8939.pth'
 
 train_pipeline = [
     dict(type='LoadImageFromFile', file_client_args=dict(backend='disk')),

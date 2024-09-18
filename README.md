@@ -13,4 +13,4 @@ bash ./tools/dist_train.sh \
       8 \
       --checkpoint {mmodel_path} 
 
-If you have any problem when using the code, please contact with us.
+## If you have any problem when using the code, please contact with us.
